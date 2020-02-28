@@ -3,7 +3,7 @@ Modern Javascript : From the beginning
 
 **********************************************************
 Udemy :- Certification Course by Brad Traversy
-Full Stack Web Developer & Instructor at Traversy Media
+{ Full Stack Web Developer & Instructor at Traversy Media }
 **********************************************************
 
 This is a front to back JavaScript course for absolutely everybody. We start with the basic fundamentals and work our way to advanced programming WITHOUT relying on frameworks or libraries at all. You will learn a ton of pure JavaScript, whether you are a beginner or an established JS programmer. There is something for everyone...
