@@ -4,7 +4,8 @@ Modern Javascript : From the beginning
 **********************************************************
 Udemy :- Certification Course by Brad Traversy
 { Full Stack Web Developer & Instructor at Traversy Media }
-**********************************************************\n
+**********************************************************
+<br/>
 
 This is a front to back JavaScript course for absolutely everybody. We start with the basic fundamentals and work our way to advanced programming WITHOUT relying on frameworks or libraries at all. You will learn a ton of pure JavaScript, whether you are a beginner or an established JS programmer. There is something for everyone...
 
@@ -26,13 +27,13 @@ Other: Local & session storage, regular expressions, try/catch error handling
 
 #### PROJECTS ####
 
-Task List With Local Storage
-Loan Calculator
-Number Guess Game
-OOP Book Listing App (ES5 Prototype & ES2015 Classes Version)
-Chuck Norris Joke Generator
-EasyHTTP - Custom HTTP Library (3 Versions - Callbacks / Promises / Async & Await)
-Github Finder
+Task List With Local Storage<br/>
+Loan Calculator<br/>
+Number Guess Game<br/>
+OOP Book Listing App (ES5 Prototype & ES2015 Classes Version)<br/>
+Chuck Norris Joke Generator<br/>
+EasyHTTP - Custom HTTP Library (3 Versions - Callbacks / Promises / Async & Await)<br/>
+Github Finder<br/>
 WeatherJS App
 Calorie Tracker (Module Pattern)
 Microposts - Frontend CRUD for REST API (Webpack & Babel)
