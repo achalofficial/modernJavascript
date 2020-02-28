@@ -36,4 +36,37 @@ console.log(fName);
 
 const Fname = "Johnny";
 console.log(Fname);
-Fname = "Jaanu"; // Produce an Error
+// Fname = "Panda"; Produce an Error
+
+console.clear();
+// Const in Objects
+const person = {
+    name : "Panda",
+    age : 22
+}
+
+console.log(person);
+
+/*
++ We can change the Data Value of the Variable inside the Object Person
++ We can't chnage the Person as whole 
+*/
+
+person.name = "cutePanda";
+person.age = 21;
+
+console.log(person);
+
+// CONST in Arrays
+
+const numbers = [1,2,3,4,5,6] ;
+numbers.push(7);
+
+console.log(numbers);
+
+/*
++ For the objects and numbers we cant resign them. We can mutate to the existing values.
+*/
+
+// numbers = [7,6,5,4,3,2,1]; // This will Pop an error since we cant reassign
+
