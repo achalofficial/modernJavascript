@@ -34,7 +34,7 @@ Calorie Tracker (Module Pattern)<br/>
 Microposts - Frontend CRUD for REST API (Webpack & Babel)<br/>
 
 
-What you’ll learn :
+Topics Covered :
 
 Modular learning sections & 10 real world projects with pure JavaScript<br/>
 Master the DOM (document object model) WITHOUT jQuery<br/>
