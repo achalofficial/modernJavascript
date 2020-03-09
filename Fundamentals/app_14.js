@@ -31,4 +31,56 @@ let k = 100;
 do { 
   console.log(k);
 }
-while (k<10)
+while (k<10);
+
+console.clear();
+
+// For Loop with Array
+
+const cars = ['ford','toyota','honda','kiwid','ritzz'];
+
+for (let i = 0 ; i < cars.length; ++i){
+  console.log(cars[i]); 
+}
+console.clear();
+
+cars.forEach(function(car){ 
+  /*
+      + It perform specific operation on each element of the array.
+  */
+  console.log(car);
+});
+
+cars.forEach(function(car,index){ 
+
+  console.log(`${index} : ${car}`);
+});
+
+cars.forEach(function(car,index,array){ 
+  //console.log(car);
+  console.log(array);  
+});
+
+//MAP
+const users = [
+  {id:1, name:'Mike'},
+  {id:2, name:'Jack'},
+  {id:3, name:'Momo'}
+];
+
+const ids = users.map(function(user){
+  return user.id;
+});
+
+console.log(ids);
+
+// FOR IN Loop
+const user = {
+  firstName : 'Mike',
+  lastName : 'Johnson',
+};
+
+for ( let x in user){
+  console.log(x);
+  console.log(`${x} : ${user[x]}`); 
+}
