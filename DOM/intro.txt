@@ -1,0 +1,6 @@
+  + What is DOM ?
+  -> Document Object Model
+  -> Tree of nodes/elements created by the browser
+  -> Javascript can be used to read/write/manipulate to the DOM.
+  -> It is Object Oriented i.e. Each element has its own set of properties.
+  
