@@ -5,7 +5,8 @@
   -> It is Object Oriented i.e. Each element has its own set of properties.
   
   + Topics Covered with File Names
-  -> app_1.js
+  -> app_1.js 
   -> app_2.js
   -> app_3.js
   -> app_4.js
+  -> app_5.js
