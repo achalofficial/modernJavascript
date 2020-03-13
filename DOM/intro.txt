@@ -7,6 +7,6 @@
   + Topics Covered with File Names
   -> app_1.js : Examining the Document Object
   -> app_2.js : DOM Selector for Single element
-  -> app_3.js :
-  -> app_4.js :
-  -> app_5.js :
+  -> app_3.js : DOM Selector for Multiple elements
+  -> app_4.js : Traversing the DOM
+  -> app_5.js : Creating the element
