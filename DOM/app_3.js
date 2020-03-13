@@ -30,10 +30,31 @@
 // items.forEach(function(item, index){
 //   console.log(item)
 //   item.textContent = `${index}: Hello`;
-
 // });
 
 // console.log(items);
 
 // Query Selector All
-const items = document.querySelectorAll('ul.collection li.collection')
+
+const items = document.querySelectorAll('ul.collection li.collection-item');
+// We can put any kind of CSS Selector just like JQuery
+console.log(items);
+
+items.forEach(function(item, index){
+  console.log(item)
+  item.textContent = `${index}: Hello`;
+});
+
+const liEven = document.querySelectorAll('li:nth-child(Even)');
+const liOdd = document.querySelectorAll('li:nth-child(Odd)');
+
+
+liEven.forEach(function(li,index){
+  li.style.background = "#ccc";
+});
+
+for (let i = 0 ; i < liOdd.length; ++i){
+    liOdd[i].style.background = "#f4f4f4";
+}
+
+// For loop will work on HTML collection since we can use the Length Property
