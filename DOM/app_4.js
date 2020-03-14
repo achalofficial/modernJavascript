@@ -38,6 +38,30 @@ list.children[0].textContent = 'hello';
 list.children[3].children[0].id = 'del';
 val = list.firstChild;
 val = list.firstElementChild;
+// Get last Child 
+val = list.lastChild;
+val = list.lastElementChild;
+// Count Child Element
+val = list.childElementCount;
+
+//Get Parent Node
+val = listItems.parentNode;
+val = listItems.parentNode;
+
+// Get parent of parent
+val = listItems.parentElement.parentElement;
+
+// Get next Siblings
+val = listItems.nextSibling;
+val = listItems.nextElementSibling;
+
+// Get Previous Sibling
+val = listItems.previousSibling;
+val = listItems.previousElementSibling; 
+
+/*
+    + It returns NULL since we are dealing with first sibling
+*/
 
 console.log(val);
 
