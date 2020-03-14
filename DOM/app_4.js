@@ -32,6 +32,12 @@ val = list.childNodes[0].nodeType;
 
 // Get Children Node
 val = list.children;
+val = list.children[0];
+list.children[0].textContent = 'hello';
+// Get children of Children
+list.children[3].children[0].id = 'del';
+val = list.firstChild;
+val = list.firstElementChild;
 
 console.log(val);
 
