@@ -12,7 +12,11 @@ li.id = 'new-item';
 li.setAttribute('title','New Item');
 
 //Create Text Node and Append
+const newTextNode = document.createTextNode('Hello World');
+li.appendChild(newTextNode);
 
+// Append li to ul
+document.querySelector('ul.collection').appendChild(li);
 
 
 console.log(li);
