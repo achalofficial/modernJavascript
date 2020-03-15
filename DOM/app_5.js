@@ -15,6 +15,19 @@ li.setAttribute('title','New Item');
 const newTextNode = document.createTextNode('Hello World');
 li.appendChild(newTextNode);
 
+// Create a New Link Element
+const link = document.createElement('a');
+
+// Add Class Name
+link.className ='delete-item secondary-content';
+
+//Add Icon HTML
+link.innerHTML = '<i class="fa fa-remove"></i>';
+
+// Append the link to li
+li.appendChild(link);
+
+
 // Append li to ul
 document.querySelector('ul.collection').appendChild(li);
 
