@@ -33,3 +33,29 @@ lis[0].remove();
 // Remove Child Element
 list.removeChild(lis[3]);
 
+// Classes and ATTR
+
+const firstLi = document.querySelector('li:first-child');
+const link = firstLi.children[0];
+
+let val ;
+
+val = link.className; // Return the Classes
+val = link.classList; // return the DOM Token 
+val = link.classList[0];
+
+// Add a Class
+link.classList.add('test');
+//Remove Class
+link.classList.remove('test');
+
+val = link ;
+
+// Attribute
+val = link.getAttribute('href');
+val = link.setAttribute('href','http://google.com')
+val = link.hasAttribute('title');
+
+
+console.log(val);
+
