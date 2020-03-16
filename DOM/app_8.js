@@ -20,8 +20,13 @@ const heading = document.querySelector('h5');
 // card.addEventListener('mouseover', runEvent);
 // // Mouse Out
 // card.addEventListener('mouseout', runEvent);
+// Mouse Move
 
+card.addEventListener('mousemove', runEvent); 
 
 function runEvent(e) {
   console.log(`Event Created : ${e.type}`);
+  heading.textContent = `X Axis : ${e.offsetX} Y Axis : ${e.offsetY}`;
+  document.body.style.backgroundColor = (`rgb(${e.offsetX},${e.offsetY}, b`);
 }
+
