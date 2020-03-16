@@ -10,4 +10,8 @@
   -> app_3.js : DOM Selector for Multiple elements
   -> app_4.js : Traversing the DOM
   -> app_5.js : Creating the element
-  -> app_6.js : 
+  -> app_6.js : Removing and Replacing the elements
+  -> app_7.js :
+  -> app_8.js :
+  -> app_9.js :
+  
