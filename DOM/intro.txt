@@ -5,12 +5,15 @@
   -> It is Object Oriented i.e. Each element has its own set of properties.
   
   + Topics Covered with File Names
-  -> app_1.js : Examining the Document Object
-  -> app_2.js : DOM Selector for Single element
-  -> app_3.js : DOM Selector for Multiple elements
-  -> app_4.js : Traversing the DOM
-  -> app_5.js : Creating the element
-  -> app_6.js : Removing and Replacing the elements
-  -> app_7.js : Event Listeners and the Event Objects
-  -> app_8.js : 
-  -> app_9.js :
+  
+  -> app_1.js  : Examining the Document Object
+  -> app_2.js  : DOM Selector for Single element
+  -> app_3.js  : DOM Selector for Multiple elements
+  -> app_4.js  : Traversing the DOM
+  -> app_5.js  : Creating the element
+  -> app_6.js  : Removing and Replacing the elements
+  -> app_7.js  : Event Listeners and the Event Objects
+  -> app_8.js  : Mouse Events
+  -> app_9.js  : Keyboard and input Events
+  -> app_10.js : Event bubbling and Delegation
+  -> app_11.js : Local and Session Storage
