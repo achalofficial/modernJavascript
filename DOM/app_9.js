@@ -12,12 +12,28 @@ taskInput.value = '';
 // // Key Down
 // taskInput.addEventListener('keydown', runEvent);
 
+// // Key Up
+// taskInput.addEventListener('keyup', runEvent);
 
-// Key Up
-taskInput.addEventListener('keyup', runEvent);
+// // key Press
+// taskInput.addEventListener('keypress', runEvent);
 
-// key Press
-taskInput.addEventListener('keypress', runEvent);
+// // FOCUS
+// taskInput.addEventListener('focus', runEvent);
+
+// // Blur
+// taskInput.addEventListener('blur', runEvent);
+
+// // Cut
+// taskInput.addEventListener('cut', runEvent);
+
+// // Paste
+// taskInput.addEventListener('paste', runEvent);
+
+// INPUT
+//taskInput.addEventListener('input', runEvent);
+
+// SELECT
 
 
 function runEvent(e) {
