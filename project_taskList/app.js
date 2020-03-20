@@ -12,6 +12,8 @@ loadEventListeners();
 function loadEventListeners() {
   // Add task event
   form.addEventListener('submit', addTask);
+  // Remove task Event
+  taskList.addEventListener('click', removeTask);
 }
 
 // Add Task
@@ -44,4 +46,9 @@ function addTask(e) {
   taskInput.value = '';
 
   e.preventDefault();
+}
+
+// Remove Task
+function removeTask(e) {
+  
 }
