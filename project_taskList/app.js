@@ -37,7 +37,7 @@ function addTask(e) {
   // Append the link to li
   li.appendChild(link);
 
-  console.log(li);
+  console.log(li); 
   
   // Append li to ul
   taskList.appendChild(li);
@@ -51,4 +51,7 @@ function addTask(e) {
 // Remove Task
 function removeTask(e) {
   
+  
+
+  e.preventDefault();
 }
