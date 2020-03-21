@@ -44,6 +44,9 @@ function addTask(e) {
   // Append li to ul
   taskList.appendChild(li);
 
+  // Store in Local Storage
+  storeTaskInLocalStorage();
+
   // Clear input
   taskInput.value = '';
 
