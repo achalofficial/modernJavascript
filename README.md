@@ -23,6 +23,7 @@ This is a front to back JavaScript course for absolutely everybody. We start wit
 #### PROJECTS ####
 
 + Task List With Local Storage<br/>
++ Calculator App<br/>
 + Loan Calculator<br/>
 + Number Guess Game<br/>
 + OOP Book Listing App (ES5 Prototype & ES2015 Classes Version)<br/>
