@@ -9,7 +9,6 @@ Udemy :- Certification Course by Brad Traversy<br/>
 This is a front to back JavaScript course for absolutely everybody. We start with the basic fundamentals and work our way to advanced programming WITHOUT relying on frameworks or libraries at all. You will learn a ton of pure JavaScript, whether you are a beginner or an established JS programmer. There is something for everyone...
 
 
-
 #### WHATS INCLUDED? ####
 
 + Basics & Fundamentals: Data types, let & const variables, functions, conditionals, loops, object literals, arrays, etc<br/>
@@ -34,6 +33,29 @@ This is a front to back JavaScript course for absolutely everybody. We start wit
 + Calorie Tracker (Module Pattern)<br/>
 + Microposts - Frontend CRUD for REST API (Webpack & Babel)<br/>
 
+#### FILE MAP ####
+
+Modern Javascript
+      |
+      | -> Fundamentals
+      |               |
+      |               | -> index.html
+      |               | -> style.css
+      |               | -> app_1.js to app_16.js
+      | -> DOM ________
+      |               |
+      |               | -> intro.txt
+      |               | -> index.html
+      |               | -> app_1.js to app_11.js
+      | -> ES5_OOPS_JS
+      |               | -> index.html
+      |               | -> app_1.js to <working currently> 
+      | -> Projects
+      |               | -> project_calculator < Working Currently > 
+      |               | -> project_GuessNum < Done >
+      |               | -> project_loanCalc < Done >
+      |               | -> project_tasklist < Done >
+      | -> README.md
 
 Topics Covered :
 
