@@ -35,27 +35,33 @@ This is a front to back JavaScript course for absolutely everybody. We start wit
 
 #### FILE MAP ####
 
-Modern Javascript
-      |
-      | -> Fundamentals
-      |               |
-      |               | -> index.html
-      |               | -> style.css
-      |               | -> app_1.js to app_16.js
-      | -> DOM ________
-      |               |
-      |               | -> intro.txt
-      |               | -> index.html
-      |               | -> app_1.js to app_11.js
-      | -> ES5_OOPS_JS
-      |               | -> index.html
-      |               | -> app_1.js to <working currently> 
-      | -> Projects
-      |               | -> project_calculator < Working Currently > 
-      |               | -> project_GuessNum < Done >
-      |               | -> project_loanCalc < Done >
-      |               | -> project_tasklist < Done >
-      | -> README.md
+Modern Javascript<br/>
+>
+    ├── Fundamentals                   
+    │   ├── index.html         
+    │   ├── style.css         
+    │   └── app_1.js to app_16.js   
+    │
+    ├── DOM                    
+    │   ├── intro.txt          
+    │   ├── index.html         
+    │   └── app_1.js to app_11.js
+    │
+    ├── ES5_OOPS_JS                              
+    │   ├── index.html         
+    │   └── app_1.js to < currently working >
+    │
+    ├── ...                              
+    │   ├── ...         
+    │   └── ...
+    │
+    ├── Projects                    
+    │   ├── project_GuessNum < done >          
+    │   ├── project_loanCalc < done >
+    │   ├── project_taskList < done >
+    │   └── project_calculator < working >
+    │
+    └── README.md
 
 Topics Covered :
 
