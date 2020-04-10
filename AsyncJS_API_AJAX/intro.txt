@@ -1,0 +1,29 @@
+- Asynchronous Programming
+      + 
+        loadPostsAsync (function (){
+            // ...wait till the posts are fetched
+            // ...do something with the posts
+        })
+        doTheNextThings();
+
+        -> Doesnot have to wait till untill the post loads
+
+- Synchronous Code 
+      + 
+        posts = loadPostsSync();
+            // ...wait till posts are fetched
+            // ...do something with the posts
+        doTheNextThings();
+
+        -> We wait untill the post are fetched (Dependent on Bandwidth and slows this process)
+
+- Most Async Code We work Comes from the API Lib
+      + XMLHttpRequest & fetch
+      + jQuery Ajax, Axion, other HTTP Lib
+      + Node.js (file System ) module
+
+- There are few ways we work with Async Code
+
+      + Callbacks
+      + Promises
+      + Async/Await

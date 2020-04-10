@@ -1,0 +1,21 @@
+- Ajax 
+    + stands for "Asynchronous Javascript & XML"
+    + send and recieve data from server
+    + Set of Web Tech
+    + Send and recieve data asynchronously
+    + Does not interfere with the current Page
+    + JSON has replaced XML for the Most Part
+    + Ajax can work with txt data as well
+
+- How does it work ??
+    + Make async request in background
+    + No page reload or refresh
+    + fetch data
+    + Very Intractive
+
+- XmlHttpRequest (XHR) Object
+    + API in the form of the object.
+    + Provided by the browsed JS environment
+    + Methods transfer data between client / server
+    + Can be used with other protocols than HTTP.
+    + Can work with data other than XML ( JSON, Plain Text)
