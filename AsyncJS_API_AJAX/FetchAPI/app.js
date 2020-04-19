@@ -18,6 +18,7 @@ function getText() {
     });
 }
 
+
 function getJson() {
   fetch('post.json')
     .then(function(res){
